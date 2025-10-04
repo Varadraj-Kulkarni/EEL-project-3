@@ -64,6 +64,7 @@ New connection option: Pincode input taken, and availability message displayed.
 
 IMPLIMENTATION:
 Github link:  
+https://github.com/Varadraj-Kulkarni/EEL-project-3/tree/1a0ae423d81af638bc2f0d1463946be117bbb671
 
 CONCLUSION:
 The project successfully demonstrates how c language can be applied to real-world business use cases like billing systems.
