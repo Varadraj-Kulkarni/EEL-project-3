@@ -62,7 +62,6 @@ Recharge with invalid input: Error message displayed correctly.
 New connection option: Pincode input taken, and availability message displayed.
 
 Code:
-
 #include <stdio.h>
 int main() {
     int serv_opt, term, wp1=599, wp2=699, wp3=899, pincode;
@@ -85,7 +84,8 @@ int main() {
         printf("\nSelect: "); 
         scanf("%f", &plan); 
         printf("\nPlease select term in months. Additional discount will apply accordingly.\nHow many months? [1 (no discount) / 3 (2%% discount) / 6 (4%% discount) / 12 (7%% discount)]\n: "); 
-        scanf("%d", &term);
+        scanf("%d", &term); 
+        
         if (term == 1) { 
             wp1 *= 1; 
             wp2 *= 1; 
@@ -136,7 +136,7 @@ int main() {
         n2 = n1 - (total_disc * n1) / 100; final = n2;
         
         printf("\n\n\n************************************************************************************************"); 
-        printf("\n                            Star Internet Services Limited     "); printf("\n*************************************************************************************************"); 
+        printf("\n Star Internet Services Limited"); printf("\n*************************************************************************************************"); 
         printf("\nCustomer Name: %s", name); 
         printf("\nCustomer ID: %.0f", id); 
         printf("\nPlan Selected: ₹%.2f per month", plan_selct); 
@@ -168,7 +168,6 @@ int main() {
     return 0; 
     
 }
-
 
 
 IMPLIMENTATION:
