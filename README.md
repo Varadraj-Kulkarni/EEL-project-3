@@ -85,8 +85,7 @@ int main() {
         printf("\nSelect: "); 
         scanf("%f", &plan); 
         printf("\nPlease select term in months. Additional discount will apply accordingly.\nHow many months? [1 (no discount) / 3 (2%% discount) / 6 (4%% discount) / 12 (7%% discount)]\n: "); 
-        scanf("%d", &term); 
-        
+        scanf("%d", &term);
         if (term == 1) { 
             wp1 *= 1; 
             wp2 *= 1; 
